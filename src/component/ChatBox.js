@@ -9,7 +9,7 @@ const Chat = () => {
   const getAdvice = async () => {
     setResponse('Loading...');
     try {
-      const res = await axios.post(`${process.env.REACT_APP_LOCAL_SERVER}/chat`, { query, pipeline });
+      const res = await axios.post(`${process.env.REACT_APP_DEV_SERVER}/chat`, { query, pipeline });
       setResponse(res.data.response);
     } catch (error) {
       setResponse('Error fetching advice.');
