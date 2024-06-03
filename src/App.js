@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Chat from './component/ChatBox';
 import ShopifyLogo from './assets/Shopify-Logo.png';
