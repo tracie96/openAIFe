@@ -1,7 +1,7 @@
 ## Clone the Repository
 
-git clone https://github.com/tracie96/openAIFe
-cd openAIFe
+- git clone https://github.com/tracie96/openAIFe
+- cd openAIFe
 
 ## Install Dependencies
 
